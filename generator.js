@@ -293,20 +293,6 @@ const display = array => {
   })
 }
 
-// console.log((getPrimeFactors(countMazeGrid(text, cipher)).permutation()))
-// console.log(uniq(getPrimeFactors(countMazeGrid(text, cipher)).permutation(), [].join))
-
-// console.log(
-//   '',
-//   [...new Array(8).keys()].map(i => { return i + 1 }).join(' '),
-//   [...new Array(3).keys()].map(i => { return i + 9 }).join(''),
-// );
-
-// const aspect = sortAsc(selectedAspectPairs(calculateMazeAspect(uniq(getPrimeFactors(
-//   // countMazeGrid(text, cipher)
-//   countMazeGrid(testText, cipher)
-// ).permutation(), [].join))))
-
 // const result = fillArray(generateEmptyArray(aspect))
 // console.log(result[0]);
 
@@ -318,8 +304,6 @@ const result = fillArray(generateEmptyArray(sortAsc(
 )))
 
 const nyan = fillAGrid(result, testArray)
-
-// console.log(nyan);
 
 // console.log(typeof nyan);
 nyan.forEach( (arr,i) => {
